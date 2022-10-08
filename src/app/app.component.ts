@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Project';
+  onActivate(e: any) {
+    window.scroll({
+      top: 100,
+      left: 10,
+      behavior: 'smooth'
+    });
+  }
 }
